@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(224, 222, 219);
+}
+
+h2 {
+  text-align: center;
+  color: aliceblue;
+}
+
+#answerContainer {
+  width: 250px;
+  height: 250px;
+  margin: 50px auto;
+  color: aliceblue;
+  background-color: rgb(57, 61, 61);
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  border: 3px double rgb(33, 117, 117);
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(30, 34, 34);
+  border-radius: 50%;
+  border: 4px double rgb(39, 179, 179);
+}
+
+#button-container,
+#answerContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  width: 150px;
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
